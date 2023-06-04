@@ -29,9 +29,15 @@ function App() {
     <section className='text'>
       <h1 id='text-box'>Range Rover collection</h1>
     </section>
-    </>
+    </> 
   )
-
 }
+/*
+let textElement =
+document.getElementById('text-box');
 
+textElement.addEventListener('click',function() {
+ textElement.textContent='Let yourself rule the dream!';
+})
+*/
 export default App;
